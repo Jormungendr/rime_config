@@ -1,0 +1,26 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.13.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Tue Feb 19 10:14:49 2019"
+  rime_version: 1.4.0
+
+patch:
+  "style/horizontal": true
+  "style/font_point": 12
+  "style/font_face": "等距更纱黑体 SC Regular"
+  "app_options/devenv.exe":
+    ascii_mode: true
+  "app_options/illustrator.exe":
+    ascii_mode: true
+  "app_options/photoshop.exe":
+    ascii_mode: true
+  "app_options/plantsvszombies":
+    ascii_mode: true
+  "app_options/winkawaks.exe":
+    ascii_mode: true
+  "app_options/sublime_text.exe":
+    ascii_mode: true
+  "app_options/Code.exe":
+    ascii_mode: true
+  "style/color_scheme": ink

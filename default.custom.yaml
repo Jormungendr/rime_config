@@ -1,0 +1,36 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.13.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Feb 19 10:13:49 2019"
+  rime_version: 1.4.0
+
+patch:
+  "key_binder/bindings":
+    - {accept: "Control+Shift+space", toggle: full_shape, when: always} # 全半角切换
+    - {accept: "Control+period", toggle: ascii_punct, when: always}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code
+    Control_L: inline_ascii
+    Control_R: noop
+    Shift_L: commit_code # 左右Shift上屏编码并切换为英文状态，inline_ascii 设定在有输入时不能切换至英文状态
+    Shift_R: commit_code #
+
+  # 原来的 Ctrl + ` 会与大部分软件的关键按键冲突
+  "switcher/hotkeys":
+    - "Control+Shift+F8"
+
+  # 除了输入翻页，应该取消所有的默认快捷鍵，输入法就是纯粹的输入用，用户按需分配快捷键，设定默认快捷键会与作业系统及其它软件产生冲突，适得其反，这样与用搜狐、腾讯输入法无二。
+  # minus/减号，equal/等号，comma/逗号，period/句号，exclam/感叹号，numbersign/井号，percent/百分号，semicolon/分号，apostrophe/单引号
+  key_binder/bindings:
+    # hotkey switch
+    - { when: always, accept: Shift+space, toggle: full_shape }
+    - { when: always, accept: Control+period, toggle: ascii_punct }
+    - { accept: comma, send: Page_Up, when: paging }
+    - { accept: period, send: Page_Down, when: has_menu }
+
+  # 选定五笔等输入方案
+  schema_list:
+    - {schema: luna_pinyin_simp}
