@@ -7,7 +7,7 @@ customization:
 
 patch:
   "style/horizontal": true
-  "style/font_point": 12
+  "style/font_point": 10
   "style/font_face": "等距更纱黑体 SC Regular"
   "app_options/devenv.exe":
     ascii_mode: true
