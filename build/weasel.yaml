@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.4.0
   timestamps:
     weasel: 1548686792
-    weasel.custom: 1550544510
+    weasel.custom: 1551227178
 app_options:
   Code.exe:
     ascii_mode: true
@@ -495,7 +495,7 @@ style:
   color_scheme: ink
   display_tray_icon: false
   font_face: "等距更纱黑体 SC Regular"
-  font_point: 12
+  font_point: 10
   fullscreen: false
   horizontal: true
   inline_preedit: false
