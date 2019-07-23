@@ -1,5 +1,5 @@
 customization:
-  distribution_code_name: Weasel
+  distribution_code_name: Squirrel
   distribution_version: 0.13.0
   generator: "Rime::SwitcherSettings"
   modified_time: "Tue Feb 19 10:13:49 2019"

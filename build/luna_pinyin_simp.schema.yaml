@@ -1,13 +1,13 @@
 __build_info:
-  rime_version: 1.4.0
+  rime_version: 1.5.3
   timestamps:
-    default: 1548686840
-    default.custom: 1551227178
-    key_bindings: 1548686840
+    default: 1561294610
+    default.custom: 1563843799
+    key_bindings: 1561294610
     key_bindings.custom: 0
-    luna_pinyin_simp.custom: 1551227178
-    luna_pinyin_simp.schema: 1548686838
-    punctuation: 1548686840
+    luna_pinyin_simp.custom: 1563843394
+    luna_pinyin_simp.schema: 1561294610
+    punctuation: 1561294610
     punctuation.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -41,7 +41,7 @@ engine:
     - script_translator
 key_binder:
   bindings:
-    - {accept: "Control+Shift+space", toggle: full_shape, when: always}
+    - {accept: "Shift+space", toggle: full_shape, when: always}
     - {accept: "Control+period", toggle: ascii_punct, when: always}
     - {accept: comma, send: Page_Up, when: paging}
     - {accept: period, send: Page_Down, when: has_menu}

@@ -7,6 +7,6 @@ customization:
 
 patch:
   "style/horizontal": true
-  "style/font_point": 10
+  "style/font_point": 14
   "style/font_face": "等距更纱黑体 SC Regular"
   "style/color_scheme": ink

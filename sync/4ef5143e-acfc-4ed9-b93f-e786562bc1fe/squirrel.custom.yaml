@@ -1,0 +1,12 @@
+customization:
+  distribution_code_name: Squirrel
+  distribution_version: 0.13.0
+  generator: "Squirrel::UIStyleSettings"
+  modified_time: "Tue Feb 19 10:14:49 2019"
+  rime_version: 1.4.0
+
+patch:
+  "style/horizontal": true
+  "style/font_point": 14
+  "style/font_face": "等距更纱黑体 SC Regular"
+  "style/color_scheme": ink
